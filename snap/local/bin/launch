@@ -23,5 +23,5 @@ OSK="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
     -usb -device usb-kbd -device usb-mouse \
     -netdev user,id=net0 \
     -device vmxnet3,netdev=net0,id=net0 \
-    -drive id=ESP,if=virtio,format=qcow2,file="$SNAP_USER_COMMON"/ESP.qcow2 \
+    -drive id=OpenCore,if=virtio,format=qcow2,file="$SNAP_USER_COMMON"/OpenCore.qcow2 \
     -drive id=SystemDisk,if=virtio,file="$SNAP_USER_COMMON"/macos.qcow2 \
